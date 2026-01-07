@@ -48,6 +48,8 @@ class App {
         } else if (choice === '3') {
             const id = cliMenu.prompt("Note ID to delete: ");
             vaultService.deleteNote(this.currentUser.username, id);
+            console.log("Deleted successfully.");
+            
         } else if (choice === '4') {
             this.currentUser = null;
         }
