@@ -1,0 +1,1 @@
+export const notes = []; // מערך ההערות [cite: 21]
